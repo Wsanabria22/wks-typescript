@@ -5,6 +5,7 @@ let arrayStrings = ['a', 'b', 'c']
 //     return arr[0];
 //   }
 
+// let elemento = firstElement(array)
   	
 // function firstElement<Type>(arr: Type[]): Type { // T, V U
 //     return arr[0];

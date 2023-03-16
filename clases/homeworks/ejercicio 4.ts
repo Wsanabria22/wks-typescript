@@ -27,6 +27,13 @@ let diego: Estudiante = {
 }
 
 // Investiga la palabra reservada implements
+// implements 
+
+// class Empleado implements Persona {
+//     nombre: string;
+//     edad: number
+// }
+
 
 // Existe otra alternativa para realizar lo mismo?
 // Si, types.
