@@ -30,7 +30,7 @@ app.use((err: error, req: Request, res: Response, next: NextFunction) => {
   const status = err.status || 500;
   const message = err.message || err;
   console.log(err);
-  res.status(status).send(message);
+  res.sendStatus(status).send(message);
 })
 
 

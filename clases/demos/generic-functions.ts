@@ -11,7 +11,7 @@ let arrayStrings = ['a', 'b', 'c']
 //     return arr[0];
 //   }
 // let elemento =  firstElement(array) //implicito
-// let elementoString =  firstElement<string>(arrayStrings) //explicito
+// let elementoString =  firstElement<string>(arrayStrings) //explicito <tipo1, tipo2, ..>
 
 function merge<U extends object, V extends object>(obj1: U, obj2: V) {
     return {
